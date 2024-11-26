@@ -41,7 +41,7 @@ D   E   F
 
 ### 5. **Pseudocode for BFS**
 
-```
+```python
 BFS(graph, start_node):
     create an empty queue Q
     mark start_node as visited and enqueue it into Q
@@ -73,7 +73,7 @@ Here’s a Python implementation of the **Breadth-First Search (BFS)** algorithm
 
 ### BFS in Python
 
-```python
+```
 from collections import deque
 
 def bfs(graph, start_node):
